@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+/* Header and navigation */
+
+.main-header {
+  border-radius: 16px;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+}
+
+.nav__item {
+  margin: 10px;
+  background-color: #7b22a1c7;
+  border-radius: 16px;
+  padding: 6px;
+  width: 182px;
+  box-shadow: 3px 3px 3px rgb(122, 11, 108);
+}
+
+.nav__item a {
+  text-decoration: none;
+}
+
+.nav_a {
+  color: white;
+  font-weight: bold;
+  font-size: smaller;
+  text-shadow: 1px 1px 2px rgb(65, 3, 80);
+}
+
+.nav__item:hover {
+  color: white;
+  background-color: #7b22a1;
+  transition: 0.2 all;
+}
+
+.nav__item a {
+  color: white;
+}
+
+/* Это класс для контактов */
+.nav_a1 {
+  display: block;
+  color: white;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  font-weight: bold;
+  font-size: smaller;
+  text-shadow: 1px 1px 2px rgb(65, 3, 80);
+}
+
+/* Это класс для выпадающего меню */
+.drop-down {
+  position: relative;
+}
+
+.drop-down__content {
+  margin-top: 10px;
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 2;
+}
+
+.drop-down:hover .drop-down__content {
+  display: block;
+}
+
+.drop-down__item {
+  margin: 5px 0px 5px 5px;
+  background-color: #7b22a1;
+  border-radius: 16px;
+  padding: 6px;
+  width: 162px;
+  box-shadow: 3px 3px 3px rgb(122, 11, 108);
+}
+
+.drop-down__item a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: smaller;
+  text-shadow: 1px 1px 2px rgb(65, 3, 80);
+}
+
+.drop-down__item:hover {
+  transform: scale(1.1);
+  background-color: rgb(202, 116, 236);
+  transition: all 0.2s ease;
+}
+
+/* Content */
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2px;
+  border-radius: 12px;
+  width: 100%;
+}
+
+.main__speach {
+  font-family: "Jura", sans-serif;
+}
+
+.main__img {
+  margin: 20px;
+  box-shadow: 0px 0px 10px 10px black;
+}
+
+.border__radius {
+  border-radius: 22px;
+}
+
+/* Work statistic */
+
+.work_statistic {
+  height: 300px;
+  background-color: #63458a;
+  color: white;
+}
+
+.btn__my-style {
+  font-family: "Raleway", sans-serif;
+  background-color: #7b22a1c7;
+  color: white;
+  font-weight: bold;
+  font-size: smaller;
+  text-shadow: 1px 1px 2px rgb(65, 3, 80);
+}
