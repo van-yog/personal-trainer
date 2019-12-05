@@ -30,7 +30,7 @@ a {
 
 .nav__item {
   margin: 10px;
-  background-color: #7b22a1af;
+  background-color: #8900ce;
   border-radius: 16px;
   padding: 6px;
   width: 182px;
@@ -45,12 +45,12 @@ a {
   color: white;
   font-weight: bold;
   font-size: smaller;
-  text-shadow: 1px 1px 2px rgb(65, 3, 80);
+  text-shadow: 2px 2px 10px rgb(65, 3, 80);
 }
 
 .nav__item:hover {
   color: white;
-  background-color: #7b22a1;
+  background-color: #ec9ded;
   transition: 0.2 all;
 }
 
@@ -66,7 +66,7 @@ a {
   margin-bottom: 14px;
   font-weight: bold;
   font-size: smaller;
-  text-shadow: 1px 1px 2px rgb(65, 3, 80);
+  text-shadow: 2px 2px 10px rgb(65, 3, 80);
 }
 
 /* Это класс для выпадающего меню */
@@ -88,7 +88,7 @@ a {
 
 .drop-down__item {
   margin: 5px 0px 5px 5px;
-  background-color: #7b22a1;
+  background-color: #8900ce;
   border-radius: 16px;
   padding: 6px;
   width: 162px;
@@ -100,12 +100,13 @@ a {
   color: rgb(255, 255, 255);
   font-weight: bold;
   font-size: smaller;
-  text-shadow: 1px 1px 2px rgb(65, 3, 80);
+  text-shadow: 2px 2px 10px rgb(65, 3, 80);
 }
 
 .drop-down__item:hover {
   transform: scale(1.1);
-  background-color: rgb(202, 116, 236);
+  /* background-color: rgb(202, 116, 236); */
+  background-color: #ec9ded;
   transition: all 0.2s ease;
 }
 
@@ -131,40 +132,53 @@ a {
 
 .border__radius {
   border-radius: 22px;
+  box-shadow: 5px 5px 10px #b298dc;
 }
 
 /* Work statistic */
 
 .work_statistic {
   height: 300px;
-  color: white;
+  color: #fff;
 }
 
 .btn__my-style {
   font-family: "Raleway", sans-serif;
-  background-color: #7b22a1af;
+  background-color: #8900ce;
   color: white;
   font-weight: bold;
   font-size: smaller;
-  text-shadow: 1px 1px 2px rgb(65, 3, 80);
+  text-shadow: 2px 2px 10px rgb(65, 3, 80);
+}
+
+.opacity-80 {
+  opacity: 0.8;
 }
 
 .statistic-bar {
-  background-color: #7b22a1af;
+  background-color: #f5cce8;
   border-radius: 16px;
   padding: 6px;
+  text-shadow: 2px 2px 15px rgb(65, 3, 80);
   box-shadow: 3px 3px 3px rgb(122, 11, 108);
 }
 
 .statistic-bar:hover {
   transform: scale(1.1);
-  border: 5px solid #b9faf8;
   /* border-left: 5px solid #b9faf8;  */
   transition: all 0.3s ease-in-out;
 }
 
 .size-count {
   font-size: 50px;
+}
+
+.functional-trains__price {
+  padding: 10 px;
+  background-color: #f5cce8;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 12px;
 }
 
 /* Color scheme number 1 */
@@ -181,11 +195,11 @@ a {
 }
 
 .color_4 {
-  background-color: #b8d0eb;
+  background-color: #f5cce8;
 }
 
 .color_5 {
-  background-color: #b9faf8;
+  background-color: #ec9ded;
 }
 
 /* Color scheme number 2 */
@@ -209,3 +223,18 @@ a {
 .color_5 {
   background-color: #63458a;
 } */
+
+/* For google man */
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
