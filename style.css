@@ -29,15 +29,15 @@ a {
 }
 
 .nav__item {
-  margin: 10px;
+  margin: 0px;
   background-color: #8900ce;
   border-radius: 16px;
-  padding: 6px;
-  width: 182px;
+  padding: 10px;
+  width: 185px;
   box-shadow: 3px 3px 3px rgb(122, 11, 108);
 }
 
-.nav__item a {
+.drop-down a {
   text-decoration: none;
 }
 
@@ -52,6 +52,13 @@ a {
   color: white;
   background-color: #ec9ded;
   transition: 0.2 all;
+}
+
+.social_net:hover {
+  background-color: #ec9ded;
+  transform: scale(1.15);
+
+  transition: 0.2 all ease;
 }
 
 .nav__item a {
@@ -75,7 +82,7 @@ a {
 }
 
 .drop-down__content {
-  margin-top: 10px;
+  margin-top: 4px;
   display: none;
   position: absolute;
   min-width: 160px;
@@ -87,11 +94,10 @@ a {
 }
 
 .drop-down__item {
-  margin: 5px 0px 5px 5px;
   background-color: #8900ce;
   border-radius: 16px;
-  padding: 6px;
-  width: 162px;
+  padding: 10px;
+  width: 185px;
   box-shadow: 3px 3px 3px rgb(122, 11, 108);
 }
 
@@ -101,6 +107,10 @@ a {
   font-weight: bold;
   font-size: smaller;
   text-shadow: 2px 2px 10px rgb(65, 3, 80);
+}
+
+.social_icon:hover {
+  text-decoration: none;
 }
 
 .drop-down__item:hover {
@@ -153,6 +163,10 @@ a {
 
 .opacity-80 {
   opacity: 0.8;
+}
+
+.opacity-30 {
+  opacity: 0.3;
 }
 
 .statistic-bar {
