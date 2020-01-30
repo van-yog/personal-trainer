@@ -14,10 +14,109 @@
     </head>
 
     <body>
-        <div class="container-fluid color_3 sticky-top mb-4 ">
-            <div class="row d-flex justify-content-center">
-                <header class="main-header">
-                    <nav class="nav">
+        <nav class="sticky-top navbar navbar-expand-lg navbar-light bg-navbar-my-style navigation-visibility-mobile">
+            <button class="navbar-toggler" type="button" data-toggle="offcanvas">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="./index.html">Меню</a>
+            <div class="navbar-collapse offcanvas-collapse bg-navbar-my-style-2" id="navbarSupportedContent">
+                <button class="offcanvas-close" type="button" data-toggle="offcanvas-close">
+                    ×
+                </button>
+                <ul class="navbar-nav mr-auto text-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">
+                            <div class="nav__item nav_a ">
+                                Ваш персональный <br> тренер
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html#individual-trains">
+                            <div class="nav__item_small nav_a ">
+                                Индивидуальные <br>тренировки
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html#functional-trains">
+                            <div class="nav__item_small nav_a ">
+                                Функциональные <br>тренировки
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html#yoga-trains">
+                            <div class="nav__item_small nav_a ">
+                                Йога и<br> Растяжка
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html#group-trains">
+                            <div class="nav__item_small nav_a ">
+                                Групповые занятия Йога/Пилатес
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html#pregnant-trains">
+                            <div class="nav__item_small nav_a ">
+                                Работа с <br>беременными
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html#health-trains">
+                            <div class="nav__item_small nav_a ">
+                                Реабилитация и <br>восстановление
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./fitness-travel.html">
+                            <div class="nav__item nav_a ">
+                                Fitness Yoga<br>
+                                TRAVEL
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact-price.html">
+                            <div class="nav__item nav_a">
+                                Таблица цен<br>Контакты
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item mr-auto">
+                        <div>
+                            <a href="https://www.instagram.com/dasha.kharchenko/" class="social_icon ml-3"
+                                target="_blank">
+                                <img class="img-fluid mx-1 rounded social_net " width="45px" src="./img/icons/insta.png"
+                                    alt="insta">
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCnoLWVBJvVZPxvfIA3YfV2Q/videos"
+                                class="social_icon ml-2" target="_blank">
+                                <img class="img-fluid mx-1 rounded-circle social_net " width="45px"
+                                    src="./img/icons/youtube.png" alt="youtube">
+                                <a href="https://www.facebook.com/profile.php?id=100004644345249"
+                                    class="social_icon ml-2" target="_blank">
+                                    <img class="img-fluid mx-1 social_net" width="43px" src="./img/icons/facebook.png"
+                                        alt="facebook">
+                                </a>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container-fluid color_3 mb-4 navigation-visibility">
+            <div class="row">
+                <header class="main-header ml-auto mr-auto">
+                    <nav class="nav d-flex justify-content-center mb-1 mb-md-0">
                         <ul class="nav__list">
                             <li class="drop-down m-2">
                                 <a class="nav_a" href="./index.html">
@@ -28,6 +127,13 @@
                                 <div class="drop-down__content">
                                     <ul>
                                         <li class="drop-down__item mb-1">
+                                            <a href="./index.html#individual-trains">
+                                                <div class="drop-down__name">
+                                                    Индивидуальные<br> тренировки в зале
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="drop-down__item mb-1">
                                             <a href="./index.html#functional-trains">
                                                 <div class="drop-down__name">
                                                     Функциональные тренировки
@@ -35,9 +141,9 @@
                                             </a>
                                         </li>
                                         <li class="drop-down__item mb-1">
-                                            <a href="./index.html#individual-trains">
+                                            <a href="./index.html#yoga-trains">
                                                 <div class="drop-down__name">
-                                                    Индивидуальные<br> тренировки в зале
+                                                    Йога и<br> Растяжка
                                                 </div>
                                             </a>
                                         </li>
@@ -62,18 +168,12 @@
                                                 </div>
                                             </a>
                                         </li>
-                                        <li class="drop-down__item mb-1">
-                                            <a href="./index.html#yoga-trains">
-                                                <div class="drop-down__name">
-                                                    Йога и<br> Растяжка
-                                                </div>
-                                            </a>
-                                        </li>
+
                                     </ul>
 
                                 </div>
                             </li>
-                            <li class="drop-down m-2">
+                            <!-- <li class="drop-down m-2">
                                 <a class="nav_a " href="./personal-trainer.html">
                                     <div class="nav__item">
                                         Профессиональным<br> спортсменам
@@ -129,7 +229,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                            </li>
+                            </li> -->
                             <!-- <li class="nav__item drop-down">
                                                 <a class="nav_a" href="#">Для корпоративных<br> клиентов</a>
                                                 <div class="drop-down__content">
@@ -152,7 +252,7 @@
                                                     </ul>
                                                 </div>
                                             </li> -->
-                            <li class="drop-down m-2">
+                            <!-- <li class="drop-down m-2">
                                 <a class="nav_a" href="./more-service.html">
                                     <div class="nav__item">
                                         Дополнительные <br>услуги
@@ -183,7 +283,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                            </li>
+                            </li> -->
                             <li class="drop-down m-2">
                                 <a class="nav_a" href="./fitness-travel.html">
                                     <div class="nav__item">
@@ -193,14 +293,14 @@
                                 </a>
                             </li>
                             <li class="drop-down m-2">
-                                <a class="nav_a" href="./contact.html">
+                                <a class="nav_a" href="./contact-price.html">
                                     <div class="nav__item">
-                                        Контакты и<br> предложения
+                                        Таблица цен<br> Контакты
                                     </div>
                                 </a>
                             </li>
                         </ul>
-                        <div class="my-auto ml-5">
+                        <div class="my-auto ml-lg-5">
                             <a href="https://www.facebook.com/profile.php?id=100004644345249" class="social_icon"
                                 target="_blank">
                                 <img class="img-fluid mx-1 social_net" width="39px" src="./img/icons/facebook.png"
@@ -221,37 +321,142 @@
             </div>
         </div>
 
-        <div class="container-fluid">
+        <div class="container" id="price">
             <div class="row">
-                <div class="col-4 offset-1 pb-5 text-center my-auto main__speach">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col"><a href="https://www.rym.zone/">Cпортивный клуб R.Y.M.</a></th>
+                            <th scope="col">1 занятие</th>
+                            <th scope="col">5 занятий</th>
+                            <th scope="col">10 занятий</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Функциональные тренировки / йога / растяжка ( если вы один )</td>
+                            <td>600 грн</td>
+                            <td>2750 грн</td>
+                            <td>5000 грн</td>
+                        </tr>
+                        <tr>
+                            <td>Функциональные тренировки / йога / растяжка ( если в паре )</td>
+                            <td>500 грн</td>
+                            <td>2250грн</td>
+                            <td>4000 грн</td>
+                        </tr>
+                        <tr>
+                            <th scope="col"><a href="https://www.rym.zone/">Cпортивный клуб R.Y.M.</a></th>
+                            <th scope="col">1 занятие</th>
+                            <th scope="col">4 занятия</th>
+                            <th scope="col">8 занятия</th>
+                        </tr>
+                        <tr>
+                            <td>Групповые занятия йогой / пилатесом</td>
+                            <td>200 грн</td>
+                            <td>600 грн</td>
+                            <td>800 грн</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td colspan="4" class="font-weidth-bold">В клуб Сенсей необходимо дополнительно приобрести
+                                абонемент. Разовое занятие - 100 грн, месяц - 500 грн.</td>
 
-                    <h1 class="display-5 font-weight-bold">Основное место работы</h1>
-                    <p class="h3">
+                        </tr>
+                        <tr>
+                            <th scope="col"><a href="https://sensey-club.at.ua/"> Фитнес клуб Cенсей</a></th>
+                            <th scope="col">1 занятие</th>
+                            <th scope="col">5 занятий</th>
+                            <th scope="col">10 занятий</th>
+                        </tr>
+                        <tr>
+
+                            <td>Персональные тренировки / восстановление / реабилитация ( если вы один )</td>
+                            <td>500 грн</td>
+                            <td>2375 грн</td>
+                            <td>4500 грн</td>
+                        </tr>
+                        <tr>
+                            <td>Персональные тренировки / восстановление / реабилитация( если в паре )</td>
+                            <td>250 грн</td>
+                            <td>1125 грн</td>
+                            <td>2000 грн</td>
+                        </tr>
+                        <tr>
+                            <th scope="col"><a href="https://sensey-club.at.ua/"> Фитнес клуб Cенсей</a></th>
+                            <th scope="col">1 занятие</th>
+                            <th scope="col">5 занятий</th>
+                            <th scope="col">10 занятий</th>
+                        </tr>
+                        <tr>
+
+                            <td>Работа с беременными</td>
+                            <td>350 грн</td>
+                            <td>1625 грн</td>
+                            <td>3000 грн</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="container-fluid mb-md-5">
+            <div class="row">
+                <div class="col-12 offset-md-1 col-md-4 pb-md-5 text-center my-auto main__speach">
+
+                    <h1 class="h4 font-weight-bold">Основное место работы</h1>
+                    <p class="h5">
                         Для групповых и персональных занятий
-                        <a href="https://www.rym.zone/"> Клуб РИМ</a>
+                        <a href="https://www.rym.zone/">Cпортивный клуб R.Y.M.</a>
 
                     </p>
-                    <p class="h3">
+                    <br>
+                    <p class="h5">
                         Для персональных занятий
-                        <a href="https://www.rym.zone/"> Клуб РИМ</a>
+                        <a href="https://sensey-club.at.ua/"> Фитнес клуб Cенсей</a>
 
                     </p>
-                    <p class="h3">
-                        Телефон +38 073-733-33-33
-
+                    <br>
+                    <p class="h5">
+                        <img class="img-fluid mx-1" width="20px" src="./img/icons/viber.png" alt="viber">
+                        Viber, <img class="img-fluid mx-1" width="20px" src="./img/icons/telegram.png" alt="telegram">
+                        Telegram <nobr>+38 096 640 38 05</nobr>
                     </p>
-                    <p> Социальные сети</p>
+                    <br>
+                    <div>
+                        <p>Социальные сети</p>
+                        <div>
+                            <a href="https://www.facebook.com/profile.php?id=100004644345249" class="social_icon"
+                                target="_blank">
+                                <img class="img-fluid mx-1" width="25px" src="./img/icons/facebook.png" alt="facebook">
+                                facebook
+                            </a>
+                            <a href="https://www.instagram.com/dasha.kharchenko/" class="social_icon" target="_blank">
+                                <img class="img-fluid mx-1 rounded  " width="25px" src="./img/icons/insta.png"
+                                    alt="insta">instagram
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCnoLWVBJvVZPxvfIA3YfV2Q/videos"
+                                class="social_icon" target="_blank">
+                                <img class="img-fluid mx-1 rounded-circle  " width="25px" src="./img/icons/youtube.png"
+                                    alt="youtube">youtube
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-5 offset-1">
+                <div class="col-md-5 col-10 offset-1">
                     <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
-                        <iframe src="https://maps.google.com/maps?q=kyiv&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                            frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d634.8618806346317!2d30.46474492922576!3d50.47001189871739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cd977eb70173%3A0xdced3eaa92ca2ebc!2z0KHQv9C-0YDRgtC40LLQvdGL0Lkg0LrQu9GD0LEgUllN!5e0!3m2!1sru!2sua!4v1578528175559!5m2!1sru!2sua"
+                            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                     </div>
                 </div>
             </div>
         </div>
-
-
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
             integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -262,6 +467,21 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
+        <script>
+            $(function () {
+                'use strict';
+
+                $('[data-toggle="offcanvas"]').on('click', function () {
+                    $('.offcanvas-collapse').addClass('open');
+                    $('body').addClass('offcanvas-open');
+                })
+                $('[data-toggle="offcanvas-close"]').on('click', function () {
+                    $('.offcanvas-collapse').removeClass('open');
+                    $('body').removeClass('offcanvas-open');
+
+                })
+            })
+        </script>
     </body>
 
 </html>

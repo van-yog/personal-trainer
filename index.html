@@ -14,10 +14,110 @@
     </head>
 
     <body>
-        <div class="container-fluid color_3 sticky-top mb-4 ">
-            <div class="row d-flex justify-content-center">
-                <header class="main-header">
-                    <nav class="nav">
+        <nav class="sticky-top navbar navbar-expand-lg navbar-light bg-navbar-my-style navigation-visibility-mobile">
+            <button class="navbar-toggler" type="button" data-toggle="offcanvas">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="./index.html">Меню</a>
+            <div class="navbar-collapse offcanvas-collapse bg-navbar-my-style-2" id="navbarSupportedContent">
+                <button class="offcanvas-close" type="button" data-toggle="offcanvas-close">
+                    ×
+                </button>
+                <ul class="navbar-nav mr-auto text-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">
+                            <div class="nav__item nav_a ">
+                                Ваш персональный <br> тренер
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#individual-trains">
+                            <div class="nav__item_small nav_a ">
+                                Индивидуальные <br>тренировки
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#functional-trains">
+                            <div class="nav__item_small nav_a ">
+                                Функциональные <br>тренировки
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#yoga-trains">
+                            <div class="nav__item_small nav_a ">
+                                Йога и<br> Растяжка
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#group-trains">
+                            <div class="nav__item_small nav_a ">
+                                Групповые занятия Йога/Пилатес
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pregnant-trains">
+                            <div class="nav__item_small nav_a ">
+                                Работа с <br>беременными
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#health-trains">
+                            <div class="nav__item_small nav_a ">
+                                Реабилитация и <br>восстановление
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./fitness-travel.html">
+                            <div class="nav__item nav_a ">
+                                Fitness Yoga<br>
+                                TRAVEL
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact-price.html">
+                            <div class="nav__item nav_a">
+                                Таблица цен<br>Контакты
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item mr-auto">
+                        <div>
+                            <a href="https://www.instagram.com/dasha.kharchenko/" class="social_icon ml-3"
+                                target="_blank">
+                                <img class="img-fluid mx-1 rounded social_net " width="45px" src="./img/icons/insta.png"
+                                    alt="insta">
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCnoLWVBJvVZPxvfIA3YfV2Q/videos"
+                                class="social_icon ml-2" target="_blank">
+                                <img class="img-fluid mx-1 rounded-circle social_net " width="45px"
+                                    src="./img/icons/youtube.png" alt="youtube">
+                                <a href="https://www.facebook.com/profile.php?id=100004644345249"
+                                    class="social_icon ml-2" target="_blank">
+                                    <img class="img-fluid mx-1 social_net" width="43px" src="./img/icons/facebook.png"
+                                        alt="facebook">
+                                </a>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Navigation bar with facebook, insta, youtube -->
+        <div class="container-fluid color_3 mb-md-4 navigation-visibility">
+            <div class="row">
+                <header class="main-header ml-auto mr-auto">
+                    <nav class="nav d-flex justify-content-center mb-1 mb-md-0">
                         <ul class="nav__list">
                             <li class="drop-down m-2">
                                 <a class="nav_a" href="./index.html">
@@ -28,6 +128,13 @@
                                 <div class="drop-down__content">
                                     <ul>
                                         <li class="drop-down__item mb-1">
+                                            <a href="#individual-trains">
+                                                <div class="drop-down__name">
+                                                    Индивидуальные<br> тренировки в зале
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="drop-down__item mb-1">
                                             <a href="#functional-trains">
                                                 <div class="drop-down__name">
                                                     Функциональные тренировки
@@ -35,9 +142,9 @@
                                             </a>
                                         </li>
                                         <li class="drop-down__item mb-1">
-                                            <a href="#individual-trains">
+                                            <a href="#yoga-trains">
                                                 <div class="drop-down__name">
-                                                    Индивидуальные<br> тренировки в зале
+                                                    Йога и<br> Растяжка
                                                 </div>
                                             </a>
                                         </li>
@@ -62,18 +169,12 @@
                                                 </div>
                                             </a>
                                         </li>
-                                        <li class="drop-down__item mb-1">
-                                            <a href="#yoga-trains">
-                                                <div class="drop-down__name">
-                                                    Йога и<br> Растяжка
-                                                </div>
-                                            </a>
-                                        </li>
+
                                     </ul>
 
                                 </div>
                             </li>
-                            <li class="drop-down m-2">
+                            <!-- <li class="drop-down m-2">
                                 <a class="nav_a " href="./personal-trainer.html">
                                     <div class="nav__item">
                                         Профессиональным<br> спортсменам
@@ -129,7 +230,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                            </li>
+                            </li> -->
                             <!-- <li class="nav__item drop-down">
                                 <a class="nav_a" href="#">Для корпоративных<br> клиентов</a>
                                 <div class="drop-down__content">
@@ -152,7 +253,7 @@
                                     </ul>
                                 </div>
                             </li> -->
-                            <li class="drop-down m-2">
+                            <!-- <li class="drop-down m-2">
                                 <a class="nav_a" href="./more-service.html">
                                     <div class="nav__item">
                                         Дополнительные <br>услуги
@@ -183,7 +284,7 @@
                                         </li>
                                     </ul>
                                 </div>
-                            </li>
+                            </li> -->
                             <li class="drop-down m-2">
                                 <a class="nav_a" href="./fitness-travel.html">
                                     <div class="nav__item">
@@ -193,14 +294,14 @@
                                 </a>
                             </li>
                             <li class="drop-down m-2">
-                                <a class="nav_a" href="./contact.html">
+                                <a class="nav_a" href="./contact-price.html">
                                     <div class="nav__item">
-                                        Контакты и<br> предложения
+                                        Таблица цен<br>Контакты
                                     </div>
                                 </a>
                             </li>
                         </ul>
-                        <div class="my-auto ml-5">
+                        <div class="my-auto ml-lg-5">
                             <a href="https://www.facebook.com/profile.php?id=100004644345249" class="social_icon"
                                 target="_blank">
                                 <img class="img-fluid mx-1 social_net" width="39px" src="./img/icons/facebook.png"
@@ -221,30 +322,31 @@
             </div>
         </div>
 
+        <!-- Main photo and page -->
         <div class="conteiner">
             <div class="row">
-                <div class="col-5 offset-1 pb-5 text-center my-auto main__speach">
-                    <h1 class="display-4 font-weight-bold">
+                <div class="col-md-5 offset-lg-1 pb-md-5 text-center my-auto main__speach col-sm-12">
+                    <h1 class="h2 font-weight-bold">
                         Харченко Даша
                     </h1>
-                    <h1 class="display-5 font-weight-bold">персональный тренер </h1>
-                    <p class="h3">
+                    <h1 class="h4 font-weight-bold">персональный тренер </h1>
+                    <p class="h5 col-10 offset-1">
                         Если ты пришел поменять что-то в своем теле, значит ты пришел поменять
                         свою жизнь...
                     </p>
                 </div>
 
-                <div class="col-3 offset-1 ">
+                <div class="col-lg-3 col-md-5 col-8 ml-auto mr-auto">
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner border__radius">
                             <div class="carousel-item active">
-                                <img class="d-block w-100" src="./img/dasha.JPG" alt="First slide">
+                                <img class="d-block w-100" src="./img/dasha-first-slide.jpg" alt="First slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="./img/dasha2.JPG" alt="Second slide">
+                                <img class="d-block w-100" src="./img/dasha-second-slide.jpg" alt="Second slide">
                             </div>
                             <div class="carousel-item">
-                                <img class="d-block w-100" src="./img/dasha3.JPG" alt="Third slide">
+                                <img class="d-block w-100" src="./img/dasha-third-slide.jpg" alt="Third slide">
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
@@ -261,11 +363,12 @@
                 </div>
             </div>
         </div>
-        <hr>
-
-        <div class="container main__speach">
+        <br>
+        <br>
+        <!-- Block about Dasha Kharchenko -->
+        <div class="container main__speach ">
             <div class="row">
-                <div class="col-9 mx-auto ">
+                <div class="col-12 col-md-9 mx-auto ">
                     <h2>
                         Давайте знакомиться!
                     </h2>
@@ -312,105 +415,50 @@
                         <li>
                             -Ты что-то хочешь поменять в жизни
                         </li>
-
                     </ul>
-
-                    <p>
-                        Для того, чтобы получить консультацию, оставь данные в форме и по возможности я
-                        с вами свяжусь.
-                    </p>
-
-                    <hr>
-
-                    <h4 class="text-center">Получи бесплатную консультацию.</h4>
-                    <form class="col-8 mx-auto">
-
-                        <div class="form-group">
-                            <label for="example-name">Имя</label>
-                            <input type="text" class="form-control" id="example-name" placeholder="Ваше имя">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="example-phone">Телефон</label>
-                            <input class="form-control" type="tel" placeholder="093-333-33-33" id="example-phone">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="example-email">Email</label>
-                            <input type="email" class="form-control" id="example-email" aria-describedby="emailHelp"
-                                placeholder="Введите email">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                                else.</small>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="exampleInputPassword1">Уточнения к консультации</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                        </div>
-
-                        <button type="submit" class="btn btn__my-style">Отправить</button>
-                    </form>
-
                 </div>
             </div>
         </div>
 
-        <div class="container-fluid work_statistic color_3 my-5">
+        <div class="container-fluid work_statistic color_3 my-mb-5 ">
             <div class="row text-center h-100  justify-content-around">
-                <div class="col-3 h-75 my-auto statistic-bar">
-                    <img class="img-fluid opacity-80" src="./img/icons/sport-gym-pair.png" width="75px"
-                        alt="sport gym pair">
-                    <h2>Часов в зале</h2>
-                    <p class="size-count">1000 </p>
+                <div class="col-3 h-75 my-auto statistic-bar pt-4 pt-md-0">
+                    <img class="img-fluid opacity-80" src="./img/icons/hours-in-gym.png" width="70px"
+                        alt="hours in gym">
+                    <h2 class=" size-statistic">Часов в зале</h2>
+                    <p class="size-statistic-count"> >25000</p>
                 </div>
-                <div class="col-3 h-75 my-auto statistic-bar">
-                    <img class="img-fluid opacity-80" src="./img/icons/happy-people.png" width="45px" alt="">
-                    <h2>Довольных клиентов</h2>
-                    <p class="size-count">1200</p>
+                <div class="col-3 h-75 my-auto statistic-bar pt-4 pt-md-1">
+                    <img class="img-fluid opacity-80" src="./img/icons/happy-clients.png" width="70px"
+                        alt="happy clients">
+                    <h2 class="size-statistic">Довольных клиентов</h2>
+                    <p class="size-statistic-count"> >900</p>
                 </div>
-                <div class="col-3 h-75 my-auto statistic-bar pt-3">
-                    <img class="img-fluid mb-1 opacity-70" src="./img/icons/yoga2.png" width="100px" alt="">
-                    <h2>Йогу посетило</h2>
-                    <p class="size-count">1300</p>
+                <div class="col-3 h-75 my-auto statistic-bar pt-4 pt-md-0">
+                    <img class="img-fluid mb-1 opacity-80" src="./img/icons/hours-in-yoga.png" width="70px"
+                        alt="hours in yoga">
+                    <h2 class="size-statistic">Занятий йоги</h2>
+                    <p class="size-statistic-count"> >1200</p>
                 </div>
             </div>
         </div>
+
 
         <div class="conteiner">
-            <div class="row " id="functional-trains">
-                <div class="col-5 offset-1 text-center my-auto main__speach">
-                    <h1 class="display-4 font-weight-bold">
-                        Функциональные тренировки
-                    </h1>
-                    <p class="h3">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt fugiat similique iste
-                        excepturi sed quo, ipsum sapiente reiciendis doloremque possimus tempora perferendis doloribus
-                        quia voluptatem eveniet quos consequuntur sequi rerum.
-                    </p>
-
-                    <p class="col-3 mx-auto functional-trains__price"> 500 грн</p>
-
-                </div>
-
-                <div class="col-3 offset-1 ">
-                    <img class="img-fluid border__radius" src="./img/dasha8.JPG" wight="100px" alt="">
-                </div>
-
+            <!-- Block of Individual trains  -->
+            <div class="header__indent" id="individual-trains">
             </div>
-
-            <hr>
-
-            <div class="row" id="individual-trains">
-
-                <div class="col-3 offset-1 ">
-                    <img class="img-fluid border__radius" src="./img/dasha6.JPG" wight="100px" alt="">
+            <div class="row">
+                <div class="col-8 col-md-4 col-lg-3 offset-lg-1  offset-md-0 offset-2 mt-auto mb-auto">
+                    <img class="img-fluid border__radius" src="./img/dasha6.jpg" wight="100px" alt="">
                 </div>
 
-                <div class="col-5 offset-1 pb-5 text-center my-auto main__speach">
-                    <h1 class="display-4 font-weight-bold">
-                        Персональные тренировке в зале
-                    </h1>
-                    <p class="h4">
+                <div
+                    class="col-10 col-md-8 col-lg-5 offset-lg-1 offset-md-0 offset-1 pb-md-5 text-center my-auto main__speach">
+                    <p class="h2 font-weight-bold">
+                        Индивидуальные тренировке в зале
+                    </p>
+                    <p class="h5">
                         Это метод номер один для достигания цели мксимально эффективно! Ведь тренер занят только вашими
                         задачами. И
                         очень круто совмещать
@@ -421,16 +469,83 @@
                         средства. Понимая ваши возможности, умение восстанавливать организм, мне легче провести вас по
                         пути к вашим целям
                     </p>
-                    <p class="col-3 mx-auto functional-trains__price"> 500 грн</p>
+                    <a class="price" href="./contact-price.html#price">от 200 грн </a>
                 </div>
             </div>
-            <hr>
-            <div class="row" id="group-trains">
-                <div class="col-5 offset-1 pb-5 text-center my-auto main__speach">
-                    <h1 class="display-4 font-weight-bold">
-                        Групповые занятия
+            <div class="header__indent">
+            </div>
+
+            <!-- Block of Functional trains -->
+
+            <div class="header__indent body__background" id="functional-trains">
+            </div>
+            <div class="row body__background">
+                <div
+                    class="col-10 col-md-8 col-lg-5 offset-lg-1 offset-md-0 offset-1 pb-2 pb-md-5 text-center my-auto main__speach">
+                    <p class="h2 font-weight-bold">
+                        Функциональные тренировки
+                    </p>
+                    <p class="h5">
+                        Упражнения, используемые в функциональной тренировке, имитируют реальные движения. В работу
+                        вовлекается большее
+                        количество мышечных групп и волокон разного типа, создается оптимальная нагрузка на всю костную
+                        систему и связочный
+                        аппарат, что способствует сжиганию большего количества калорий и равномерному распределению
+                        нагрузки на весь наш
+                        опорно-двигательный аппарат.
+                    </p>
+
+                    <a class="price" href="./contact-price.html#price">от 400 грн
+                    </a>
+
+                </div>
+
+                <div class="col-8 col-md-4 col-lg-3 offset-lg-1  offset-md-0 offset-2 mt-auto mb-auto">
+                    <img class="img-fluid border__radius" src="./img/dasha8.jpg" wight="100px" alt="">
+                </div>
+
+            </div>
+            <div class="header__indent body__background">
+            </div>
+
+            <!-- Block of Yoga trains -->
+            <div class="header__indent" id="yoga-trains">
+            </div>
+            <div class="row">
+
+                <div class="col-10 col-md-5 col-lg-4 offset-lg-1  offset-md-0 offset-1 mt-auto mb-auto">
+                    <img class="img-fluid border__radius" src="./img/dasha10.jpg" wight="200px" alt="">
+                </div>
+
+                <div
+                    class="col-10 col-md-7 col-lg-5 offset-lg-1 offset-md-0 offset-1 pb-md-5 text-center my-auto main__speach">
+                    <h1 class="h2 font-weight-bold">
+                        Йога и растяжка
                     </h1>
-                    <p class="h4">
+                    <p class="h5">
+                        Ощутить и понять своё тело позволяет йога. Йога вносит в вашу жизнь размеренность, йога меняет
+                        ваше состояние, ваше
+                        мышление ведь научившись слышать свое тело, вы становитесь более внимательным к своей жизни. И
+                        да, вы пришли за
+                        спокойствием, балансом и гармонией, а выносите совсем другое мышление.
+                    </p>
+                    <a class="price" href="./contact-price.html#price">от 400 грн </a>
+                </div>
+            </div>
+            <div class="header__indent">
+            </div>
+
+            <!-- Block of Group trains -->
+
+            <div class="header__indent body__background" id="group-trains">
+            </div>
+            <div class="row body__background">
+                <div
+                    class="col-10 col-md-7 col-lg-5 offset-lg-1 offset-md-0 offset-1 pb-2 pb-md-5 text-center my-auto main__speach">
+                    <p class="h2 font-weight-bold">
+                        Групповые занятия
+                    </p>
+                    <p class="h5">
                         Весь мир трубит что окружение, это уже половина
                         успеха...групповые занятия дают вам это
                         окружение. А именно окружение единомышленников, тех, кто пришел за переменами и очень
@@ -441,40 +556,65 @@
                         стать лучше, оставив за дверью
                         зала все свои проблеммы!
                     </p>
-                    <p class="col-3 mx-auto functional-trains__price"> 500 грн</p>
+                    <a class="price" href="./contact-price.html#price">от 100 грн </a>
                 </div>
 
-                <div class="col-3 offset-1 ">
-                    <img class="img-fluid border__radius" src="./img/dasha8.JPG" wight="100px" alt="">
+                <div class="col-10 col-md-5 col-lg-4 offset-lg-1  offset-md-0 offset-1 mt-auto mb-auto">
+                    <img class="img-fluid border__radius" src="./img/dasha_group.jpg" width="900px" alt="">
                 </div>
 
             </div>
-            <hr>
-            <div class="row" id="pregnant-trains">
+            <div class="header__indent body__background">
+            </div>
 
-                <div class="col-5 offset-1">
-                    <img class="img-fluid border__radius" src="./img/dasha11.JPG" wight="100px" alt="">
+            <!-- Block of Pregnant trains -->
+            <div class="header__indent" id="pregnant-trains">
+            </div>
+            <div class="row">
+
+                <div class="col-10 col-md-5 col-lg-4 offset-lg-1  offset-md-0 offset-1 mt-auto mb-auto">
+                    <img class="img-fluid border__radius" src="./img/dasha11.jpg" wight="100px" alt="">
                 </div>
 
-                <div class="col-5  pb-5 text-center my-auto main__speach">
-                    <h1 class="display-4 font-weight-bold">
+                <div
+                    class="col-10 col-md-7 col-lg-5 offset-lg-1 offset-md-0 offset-1 pb-md-5 text-center my-auto main__speach">
+                    <p class="h2 font-weight-bold">
                         Работа с беременными
-                    </h1>
-                    <p class="h4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt fugiat similique iste
-                        excepturi sed quo, ipsum sapiente reiciendis doloremque possimus tempora perferendis doloribus
-                        quia voluptatem eveniet quos consequuntur sequi rerum.
                     </p>
-                    <p class="col-3 mx-auto functional-trains__price"> 500 грн</p>
+                    <p class="h5">
+                        Разрешены ли физические нагрузки во время беременности? Разумеется. Более того, они полезны, но
+                        при соблюдении ряда
+                        разумных предосторожностей. Чтобы беременность наступила и протекала
+                        легко, необходимо поддерживать свой организм здоровым, регулярно заниматься любимым видом
+                        физической нагрузки,
+                        полноценно и вкусно питаться, пить воду в течение дня, поддерживать баланс часов работы и отдыха
+                        и быть эмоционального
+                        уравновешенной. Упражнения во время
+                        беременности могут свести к минимуму боли в спине и суставах, улучшат сон, снизят риск
+                        гестационного диабета и
+                        депрессии. Регулярные
+                        занятия спортом во
+                        время беременности помогут вам чувствовать себя лучше и помогут получить ваше "добеременное"
+                        тело
+                        обратно после родов.
+                    </p>
+                    <a class="price" href="./contact-price.html#price">от 300 грн </a>
                 </div>
             </div>
-            <hr>
-            <div class="row" id="health-trains">
-                <div class="col-5 offset-1 pb-5 text-center my-auto main__speach">
-                    <h1 class="display-4 font-weight-bold">
+            <div class="header__indent">
+            </div>
+
+
+            <!-- Block of Health trains -->
+            <div class="header__indent body__background" id="health-trains">
+            </div>
+            <div class="row body__background">
+                <div
+                    class="col-10 col-md-8 col-lg-5 offset-lg-1 offset-md-0 offset-1 pb-2 pb-md-5 text-center my-auto main__speach">
+                    <p class="h2 font-weight-bold">
                         Восстановление и Реабилитация
-                    </h1>
-                    <p class="h4">
+                    </p>
+                    <p class="h5">
                         Не только профессионалы нуждаются в восстановлении. Грамотно запустить все ваши системы в
                         работу: задача особой сложности.
                         И тут не только речь о послетравматичном
@@ -484,37 +624,55 @@
                         плавном восстановлении активности тела. Используя данный подход невероятно
                         приятно наблюдать, как оживает человек в буквальном смысле!!!
                     </p>
-                    <p class="col-3 mx-auto functional-trains__price"> 500 грн</p>
+                    <a class="price" href="./contact-price.html#price">от 200 грн </a>
                 </div>
 
-                <div class="col-3 offset-1 ">
-                    <img class="img-fluid border__radius" src="./img/dasha3.JPG" wight="100px" alt="">
+                <div class="col-10 col-md-4 col-lg-3 offset-lg-1  offset-md-0 offset-1 mt-auto mb-auto">
+                    <img class="img-fluid border__radius" src="./img/dasha1.jpg" wight="100px" alt="">
                 </div>
 
             </div>
-            <hr>
-            <div class="row" id="yoga-trains">
-
-                <div class="col-5 offset-1">
-                    <img class="img-fluid border__radius" src="./img/dasha10.JPG" wight="200px" alt="">
-                </div>
-
-                <div class="col-5 pb-5 text-center my-auto main__speach">
-                    <h1 class="display-4 font-weight-bold">
-                        Йога и растяжка
-                    </h1>
-                    <p class="h4">
-                        Ощутить и понять своё тело позволяет йога. Йога вносит в вашу жизнь размеренность, йога меняет
-                        ваше состояние, ваше
-                        мышление ведь научившись слышать свое тело, вы становитесь более внимательным к своей жизни. И
-                        да, вы пришли за
-                        спокойствием, балансом и гармонией, а выносите совсем другое мышление.
-                    </p>
-                    <p class="col-3 mx-auto functional-trains__price"> 500 грн</p>
-                </div>
+            <div class="header__indent body__background">
             </div>
+
         </div>
-        <hr>
+        <br>
+
+        <!-- Block with consultation -->
+        <!-- <div class="container">
+            <div class="row d-flex flex-column">
+                <h5 class="text-center">Бонус: получи консультацию.</h5>
+                <form class="col-6 mx-auto">
+
+                    <div class="form-group">
+                        <label for="example-name">Имя</label>
+                        <input type="text" class="form-control" id="example-name" placeholder="Ваше имя">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="example-phone">Телефон</label>
+                        <input class="form-control" type="tel" placeholder="093-333-33-33" id="example-phone">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="example-email">Email</label>
+                        <input type="email" class="form-control" id="example-email" aria-describedby="emailHelp"
+                            placeholder="Введите email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Уточнения к консультации</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Как накачаться за 3 дня до отпуска?"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn__my-style">Отправить</button>
+                </form>
+                <br>
+            </div>
+        </div> -->
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
             integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -525,6 +683,22 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
+
+        <script>
+            $(function () {
+                'use strict';
+
+                $('[data-toggle="offcanvas"]').on('click', function () {
+                    $('.offcanvas-collapse').addClass('open');
+                    $('body').addClass('offcanvas-open');
+                })
+                $('[data-toggle="offcanvas-close"]').on('click', function () {
+                    $('.offcanvas-collapse').removeClass('open');
+                    $('body').removeClass('offcanvas-open');
+
+                })
+            })
+        </script>
     </body>
 
 </html>
