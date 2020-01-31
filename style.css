@@ -313,6 +313,9 @@ body {
     display: none;
   }
 
+  .work_statistic {
+    height: 200px;
+  }
   .size-statistic-count {
     font-size: 24px;
   }
@@ -340,10 +343,9 @@ body {
     background-color: #b298dc;
     opacity: 0.98;
   }
-  
+
   .bg-navbar-my-style-2 {
     background-color: #f5cce8;
-
   }
 
   .drop-down__item {
