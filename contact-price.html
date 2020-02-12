@@ -10,6 +10,7 @@
             integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="./style.css">
         <link rel="shortcut icon" href="./img/icons/fitness-favicon3.ico" type="image/x-icon">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <title>Даша тренер, персональные тренировки</title>
     </head>
 
@@ -212,7 +213,7 @@
 
         <div class="container" id="price">
             <div class="row">
-                <table class="table table-hover">
+                <table class="table table-hover" data-aos="fade-up" data-aos-duration="1000">
                     <thead>
                         <tr>
                             <th scope="col"><a href="https://www.rym.zone/">Cпортивный клуб R.Y.M.</a></th>
@@ -296,7 +297,8 @@
 
         <div class="container-fluid mb-md-5">
             <div class="row">
-                <div class="col-12 offset-md-1 col-md-4 pb-md-5 text-center my-auto main__speach">
+                <div class="col-12 offset-md-1 col-md-4 pb-md-5 text-center my-auto main__speach" data-aos="fade-up"
+                    data-aos-duration="1000">
 
                     <h1 class="h4 font-weight-bold">Основное место работы</h1>
                     <p class="h5">
@@ -317,7 +319,7 @@
                         Telegram <nobr>+38 096 640 38 05</nobr>
                     </p>
                     <br>
-                    <div>
+                    <div data-aos="fade-up" data-aos-duration="1000">
                         <p>Социальные сети</p>
                         <div>
                             <a href="https://www.facebook.com/profile.php?id=100004644345249" class="social_icon"
@@ -337,7 +339,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-5 col-10 offset-1">
+                <div class="col-md-5 col-10 offset-1" data-aos="fade-up" data-aos-duration="1000">
                     <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d634.8618806346317!2d30.46474492922576!3d50.47001189871739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cd977eb70173%3A0xdced3eaa92ca2ebc!2z0KHQv9C-0YDRgtC40LLQvdGL0Lkg0LrQu9GD0LEgUllN!5e0!3m2!1sru!2sua!4v1578528175559!5m2!1sru!2sua"
@@ -346,6 +348,11 @@
                 </div>
             </div>
         </div>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
             integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

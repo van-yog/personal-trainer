@@ -10,6 +10,7 @@
             integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="./style.css">
         <link rel="shortcut icon" href="./img/icons/fitness-favicon3.ico" type="image/x-icon">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <title>Даша тренер, персональные тренировки</title>
     </head>
 
@@ -211,7 +212,7 @@
         </div>
 
         <div class="conteiner">
-            <div class="row main__speach text-center mt-4 mb-4">
+            <div class="row main__speach text-center mt-4 mb-4" data-aos="fade-up" data-aos-duration="1000">
                 <div class="col my-auto">
                     <p class="h2 ">В 2020 году сказочный Турунч - Турция.</p>
                     <p class="h5 col-12 col-md-10 offset-md-1">Вторая половина мая, точные даты будут немного позже.
@@ -220,7 +221,7 @@
                         Для предварительной записи пишите в директ <nobr><a
                                 href="https://www.instagram.com/dasha.kharchenko/" class="social_icon" target="_blank">
                                 <img class="img-fluid mx-1 rounded  " width="39px" src="./img/icons/insta.png"
-                                    alt="insta">интаграм
+                                    alt="insta">инcтаграм
                             </a></nobr>
                         или <nobr><a href="https://www.facebook.com/profile.php?id=100004644345249" class="social_icon"
                                 target="_blank">
@@ -235,7 +236,8 @@
             </div>
 
             <div class="row">
-                <div class="col-10 offset-1 col-md-4 pb-5 text-center my-auto main__speach">
+                <div class="col-10 offset-1 col-md-4 pb-5 text-center my-auto main__speach" data-aos="fade-up"
+                    data-aos-duration="1500">
                     <h1 class="h2 font-weight-bold">
                         Путешествуй полезно
                     </h1>
@@ -245,7 +247,7 @@
                     </p>
                 </div>
 
-                <div class="col-10 col-md-5 offset-1 mt-auto mb-auto">
+                <div class="col-12 col-md-5 p-4 mt-auto mb-auto" data-aos="fade-up" data-aos-duration="1000">
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner border__radius">
                             <div class="carousel-item active">
@@ -298,6 +300,12 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
         <script>
             $(function () {
                 'use strict';

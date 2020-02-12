@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="./style.css">
         <link rel="shortcut icon" href="./img/icons/fitness-favicon3.ico" type="image/x-icon">
         <title>Даша тренер, персональные тренировки</title>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
 
     <body>
@@ -20,6 +21,24 @@
             </button>
             <a class="navbar-brand" href="./index.html">Меню</a>
             <div class="navbar-collapse offcanvas-collapse bg-navbar-my-style-2" id="navbarSupportedContent">
+                <div class="nav-item mr-auto">
+                    <a href="https://www.instagram.com/dasha.kharchenko/" class="social_icon ml-3" target="_blank">
+                        <img class="img-fluid mx-1 rounded social_net " width="40px" src="./img/icons/insta.png"
+                            alt="insta">
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCnoLWVBJvVZPxvfIA3YfV2Q/videos" class="social_icon ml-2"
+                        target="_blank">
+                        <img class="img-fluid mx-1 rounded-circle social_net " width="40px"
+                            src="./img/icons/youtube.png" alt="youtube">
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100004644345249" class="social_icon ml-2"
+                        target="_blank">
+                        <img class="img-fluid mx-1 social_net" width="40px" src="./img/icons/facebook.png"
+                            alt="facebook">
+                    </a>
+
+                </div>
+
                 <button class="offcanvas-close" type="button" data-toggle="offcanvas-close">
                     ×
                 </button>
@@ -90,25 +109,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="nav-item mr-auto">
-                        <div>
-                            <a href="https://www.instagram.com/dasha.kharchenko/" class="social_icon ml-3"
-                                target="_blank">
-                                <img class="img-fluid mx-1 rounded social_net " width="45px" src="./img/icons/insta.png"
-                                    alt="insta">
-                            </a>
-                            <a href="https://www.youtube.com/channel/UCnoLWVBJvVZPxvfIA3YfV2Q/videos"
-                                class="social_icon ml-2" target="_blank">
-                                <img class="img-fluid mx-1 rounded-circle social_net " width="45px"
-                                    src="./img/icons/youtube.png" alt="youtube">
-                                <a href="https://www.facebook.com/profile.php?id=100004644345249"
-                                    class="social_icon ml-2" target="_blank">
-                                    <img class="img-fluid mx-1 social_net" width="43px" src="./img/icons/facebook.png"
-                                        alt="facebook">
-                                </a>
-                            </a>
-                        </div>
-                    </li>
+
                 </ul>
             </div>
         </nav>
@@ -214,7 +215,8 @@
         <!-- Main photo and page -->
         <div class="conteiner">
             <div class="row">
-                <div class="col-md-5 offset-lg-1 pb-md-5 text-center my-auto main__speach col-sm-12">
+                <div class="col-md-5 offset-lg-1 pb-md-5 text-center my-auto main__speach col-sm-12" data-aos="fade-up"
+                    data-aos-duration="1000">
                     <h1 class="h2 font-weight-bold">
                         Харченко Даша
                     </h1>
@@ -225,7 +227,7 @@
                     </p>
                 </div>
 
-                <div class="col-lg-3 col-md-5 col-8 ml-auto mr-auto">
+                <div class="col-lg-3 col-md-5 col-8 ml-auto mr-auto" data-aos="fade-up" data-aos-duration="1500">
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner border__radius">
                             <div class="carousel-item active">
@@ -257,7 +259,7 @@
         <!-- Block about Dasha Kharchenko -->
         <div class="container main__speach ">
             <div class="row">
-                <div class="col-12 col-md-9 mx-auto ">
+                <div class="col-12 col-md-9 mx-auto " data-aos="fade-up" data-aos-duration="1000">
                     <h2>
                         Давайте знакомиться!
                     </h2>
@@ -266,7 +268,7 @@
                         различных направлениях.
                         Йога, Индивидуальные тренировки, Функциональные, Работаю с беременными, профессиональными
                         командами, организовую
-                        различные ивенты, здоровоый и активный отдых. Вы попали к профессионалу.
+                        различные ивенты, здоровый и активный отдых. Вы попали к профессионалу.
                     </p>
 
                     <ol>
@@ -292,14 +294,14 @@
                     </ol>
 
                     <p>
-                        Это не полный список моих умений и возможностей. Тем неменее этого достаточно, чтобы ты понял
+                        Это не полный список моих умений и возможностей. Тем не менее этого достаточно, чтобы ты понял
                         одно -
-                        ты в наджных руках профессионала. Про себя я знаю, а вот что привело тебя сюда?
-                        И почему именно ты ищещь тренера?
+                        ты в надежных руках профессионала. Про себя я знаю, а вот что привело тебя сюда?
+                        И почему именно ты ищешь тренера?
                     </p>
                     <ul>
                         <li>-Настало время перемен</li>
-                        <li>-Ты ищещь специалиста</li>
+                        <li>-Ты ищешь специалиста</li>
                         <li>-Тебе нужна помощь в тренировочном процессе</li>
                         <li>
                             -Ты что-то хочешь поменять в жизни
@@ -311,19 +313,22 @@
 
         <div class="container-fluid work_statistic color_3 my-mb-5 ">
             <div class="row text-center h-100  justify-content-around">
-                <div class="col-3 h-75 my-auto statistic-bar pt-1 pt-mb-4 pt-md-0">
+                <div class="col-3 h-75 my-auto statistic-bar pt-1 pt-mb-4 pt-md-0" data-aos="zoom-in"
+                    data-aos-duration="1000">
                     <img class="img-fluid opacity-80" src="./img/icons/hours-in-gym.png" width="70px"
                         alt="hours in gym">
                     <h2 class=" size-statistic">Часов в зале</h2>
                     <p class="size-statistic-count"> >25000</p>
                 </div>
-                <div class="col-3 h-75 my-auto statistic-bar pt-1 pt-mb-4 pt-md-1">
+                <div class="col-3 h-75 my-auto statistic-bar pt-1 pt-mb-4 pt-md-1" data-aos="zoom-in"
+                    data-aos-delay="300" data-aos-duration="1000">
                     <img class="img-fluid opacity-80" src="./img/icons/happy-clients.png" width="70px"
                         alt="happy clients">
                     <h2 class="size-statistic">Довольных клиентов</h2>
                     <p class="size-statistic-count"> >900</p>
                 </div>
-                <div class="col-3 h-75 my-auto statistic-bar pt-1 pt-mb-4 pt-md-0">
+                <div class="col-3 h-75 my-auto statistic-bar pt-1 pt-mb-4 pt-md-0" data-aos="zoom-in"
+                    data-aos-delay="600" data-aos-duration="1000">
                     <img class="img-fluid mb-1 opacity-80" src="./img/icons/hours-in-yoga.png" width="70px"
                         alt="hours in yoga">
                     <h2 class="size-statistic">Занятий йоги</h2>
@@ -333,11 +338,9 @@
         </div>
 
 
-        <div class="conteiner">
+        <div class="conteiner" id="individual-trains">
             <!-- Block of Individual trains  -->
-            <div class="header__indent" id="individual-trains">
-            </div>
-            <div class="row">
+            <div class="row m-md-3 mt-3 mb-3" data-aos="fade-up" data-aos-duration="1000">
                 <div class="col-8 col-md-4 col-lg-3 offset-lg-1  offset-md-0 offset-2 mt-auto mb-auto">
                     <img class="img-fluid border__radius" src="./img/dasha6.jpg" wight="100px" alt="individual-trains">
                 </div>
@@ -348,7 +351,7 @@
                         Индивидуальные тренировке в зале
                     </p>
                     <p class="h5">
-                        Это метод номер один для достигания цели мксимально эффективно! Ведь тренер занят только вашими
+                        Это метод номер один для достижения цели максимально эффективно! Ведь тренер занят только вашими
                         задачами. И
                         очень круто совмещать
                         разные направления и дополнять персональным занятием свой тренировочный план на неделю. Ведь
@@ -361,14 +364,12 @@
                     <a class="price" href="./contact-price.html#price">от 200 грн </a>
                 </div>
             </div>
-            <div class="header__indent">
-            </div>
 
             <!-- Block of Functional trains -->
 
-            <div class="row body__background" id="functional-trains">
-                <div
-                    class="col-10 col-md-8 col-lg-5 offset-lg-1 offset-md-0 offset-1 pb-2 pb-md-5 text-center my-auto main__speach">
+            <div class="row body__background p-md-3 pt-3 pb-3" id="functional-trains" data-aos="fade-up"
+                data-aos-duration="1000">
+                <div class="col-10 col-md-8 col-lg-5 offset-lg-1 offset-md-0 offset-1 text-center my-auto main__speach">
                     <p class="h2 font-weight-bold">
                         Функциональные тренировки
                     </p>
@@ -387,20 +388,19 @@
 
                 </div>
 
-                <div class="col-8 col-md-4 col-lg-3 offset-lg-1  offset-md-0 offset-2 mt-auto mb-auto">
+                <div class="col-8 col-md-4 col-lg-3 pt-3 pt-md-0 offset-lg-1  offset-md-0 offset-2 mt-auto mb-auto">
                     <img class="img-fluid border__radius" src="./img/dasha8.jpg" wight="100px" alt="functional-trains">
                 </div>
             </div>
 
             <!-- Block of Yoga trains -->
-            <div class="row" id="yoga-trains">
+            <div class="row m-3" id="yoga-trains" data-aos="fade-up" data-aos-duration="1000">
 
-                <div class="col-10 col-md-5 col-lg-4 offset-lg-1  offset-md-0 offset-1 mt-auto mb-auto">
+                <div class="col-12 col-md-5 col-lg-4 offset-lg-1  offset-md-0 mt-auto mb-auto">
                     <img class="img-fluid border__radius" src="./img/dasha10.jpg" wight="200px" alt="yoga-trains">
                 </div>
 
-                <div
-                    class="col-10 col-md-7 col-lg-5 offset-lg-1 offset-md-0 offset-1 pb-md-5 text-center my-auto main__speach">
+                <div class="col-12 col-md-7 col-lg-5 offset-lg-1 offset-md-0 text-center my-auto main__speach">
                     <h1 class="h2 font-weight-bold">
                         Йога и растяжка
                     </h1>
@@ -416,9 +416,9 @@
             </div>
 
             <!-- Block of Group trains -->
-            <div class="row body__background" id="group-trains">
-                <div
-                    class="col-10 col-md-7 col-lg-5 offset-lg-1 offset-md-0 offset-1 pb-2 pb-md-5 text-center my-auto main__speach">
+            <div class="row body__background  p-md-3 pt-3 pb-3" id="group-trains" data-aos="fade-up"
+                data-aos-duration="1000">
+                <div class="col-10 col-md-7 col-lg-5 offset-lg-1 offset-md-0 offset-1 text-center my-auto main__speach">
                     <p class="h2 font-weight-bold">
                         Групповые занятия
                     </p>
@@ -431,25 +431,24 @@
                         результату.
                         Групповые занятия это ещё возможность
                         стать лучше, оставив за дверью
-                        зала все свои проблеммы!
+                        зала все свои проблемы!
                     </p>
                     <a class="price" href="./contact-price.html#price">от 100 грн </a>
                 </div>
 
-                <div class="col-10 col-md-5 col-lg-4 offset-lg-1  offset-md-0 offset-1 mt-auto mb-auto">
-                    <img class="img-fluid border__radius" src="./img/dasha_group.jpg" width="900px" alt="group-trains">
+                <div class="col-10 col-md-5 col-lg-4 offset-lg-1 pt-3 pt-md-0 offset-md-0 offset-1 mt-auto mb-auto">
+                    <img class="img-fluid border__radius" src="./img/dasha_group.jpg" alt="group-trains">
                 </div>
             </div>
 
             <!-- Block of Pregnant trains -->
-            <div class="row" id="pregnant-trains">
+            <div class="row m-3" id="pregnant-trains" data-aos="fade-up" data-aos-duration="1000">
 
-                <div class="col-10 col-md-5 col-lg-4 offset-lg-1  offset-md-0 offset-1 mt-auto mb-auto">
+                <div class="col-12 col-md-5 col-lg-4 offset-lg-1  offset-md-0 mt-auto mb-auto">
                     <img class="img-fluid border__radius" src="./img/dasha11.jpg" wight="100px" alt="pregnant-trains">
                 </div>
 
-                <div
-                    class="col-10 col-md-7 col-lg-5 offset-lg-1 offset-md-0 offset-1 pb-md-5 text-center my-auto main__speach">
+                <div class="col-12 col-md-7 col-lg-5 offset-lg-1 offset-md-0 text-center my-auto main__speach">
                     <p class="h2 font-weight-bold">
                         Работа с беременными
                     </p>
@@ -466,7 +465,7 @@
                         гестационного диабета и
                         депрессии. Регулярные
                         занятия спортом во
-                        время беременности помогут вам чувствовать себя лучше и помогут получить ваше "добеременное"
+                        время беременности помогут вам чувствовать себя лучше и помогут получить ваше "до беременное"
                         тело
                         обратно после родов.
                     </p>
@@ -475,7 +474,8 @@
             </div>
 
             <!-- Block of Health trains -->
-            <div class="row body__background" id="health-trains">
+            <div class="row body__background p-md-3 pt-3 pb-3" id="health-trains" data-aos="fade-up"
+                data-aos-duration="1000">
                 <div
                     class="col-10 col-md-8 col-lg-5 offset-lg-1 offset-md-0 offset-1 pb-2 pb-md-5 text-center my-auto main__speach">
                     <p class="h2 font-weight-bold">
@@ -484,7 +484,7 @@
                     <p class="h5">
                         Не только профессионалы нуждаются в восстановлении. Грамотно запустить все ваши системы в
                         работу: задача особой сложности.
-                        И тут не только речь о послетравматичном
+                        И тут не только речь о посттравматическом
                         периоде. Здесь часто нужно
                         восстановить спортивное утерянное качество или навык. После долгого периода
                         бездействия, любой человек нуждается в
@@ -494,7 +494,7 @@
                     <a class="price" href="./contact-price.html#price">от 200 грн </a>
                 </div>
 
-                <div class="col-10 col-md-4 col-lg-3 offset-lg-1  offset-md-0 offset-1 mt-auto mb-auto">
+                <div class="col-8 col-md-4 col-lg-3 pt-3 pt-md-0 offset-lg-1  offset-md-0 offset-2 mt-auto mb-auto">
                     <img class="img-fluid border__radius" src="./img/dasha1.jpg" wight="100px" alt="health-trains">
                 </div>
 
@@ -513,10 +513,14 @@
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
 
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
         <script>
             $(function () {
                 'use strict';
-
                 $('[data-toggle="offcanvas"]').on('click', function () {
                     $('.offcanvas-collapse').addClass('open');
                     $('body').addClass('offcanvas-open');
@@ -524,7 +528,6 @@
                 $('[data-toggle="offcanvas-close"]').on('click', function () {
                     $('.offcanvas-collapse').removeClass('open');
                     $('body').removeClass('offcanvas-open');
-
                 })
             })
         </script>
