@@ -64,6 +64,12 @@ body {
   width: 40px;
 }
 
+.map__size {
+  width: 600px;
+  height: 450px;
+  border: 0;
+}
+
 .nav__item:hover {
   color: white;
   background-color: #ec9ded;
